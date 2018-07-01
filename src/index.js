@@ -8,4 +8,4 @@ const App = () => {
 }
 
 //Put the component's generated HTML into the DOM
-ReactDOM.render(<App />);
+ReactDOM.render(<App />, document.querySelector('.container'));
